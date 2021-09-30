@@ -1,0 +1,12 @@
+---
+general_user: 'dojo'
+general_group: 'dojo'
+general_home_directory: /home/dojo
+general_create_account: true
+
+application_directory: '/app'
+
+node_directory: '{{ application_directory }}/dojo'
+nginx_root_directory: '{{ node_directory }}/public'
+mysql_data_directory: '{{ application_directory }}/mysql'
+golang_api_directory: '{{ application_directory }}/api'
